@@ -1,3 +1,20 @@
-$height--body: 1px;
 
-$background--color: yellow;
+$color--primany: yellow;
+$color--secondary: blue;
+$height--body: 20px;
+$font-stack--headings: 'Space Mono', sans-serif;
+$font-stack--reading-text: 'Rubik', sans-serif;
+$width-desktop: 960px;
+$width-tablet: 720px;
+$width-mobile: 425px;
+$margin--variable: 24px;
+
+html {
+   background-color: lightblue;
+}
+
+body {
+   font-family: $font-stack--reading-text;
+   font-size: $height--body;
+   margin: $margin--variable;
+}
