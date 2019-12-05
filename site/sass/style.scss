@@ -1,5 +1,4 @@
 @import 'variables';
-
-main {
-  font-family: $font-stack--reading;
-}
+@import 'header';
+@import 'nav';
+@import 'pages';
