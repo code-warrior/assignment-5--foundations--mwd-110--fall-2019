@@ -1,20 +1,43 @@
-
-$color--primany: yellow;
-$color--secondary: blue;
-$height--body: 20px;
-$font-stack--headings: 'Space Mono', sans-serif;
-$font-stack--reading-text: 'Rubik', sans-serif;
-$width-desktop: 960px;
-$width-tablet: 720px;
-$width-mobile: 425px;
-$margin--variable: 24px;
-
 html {
-   background-color: lightblue;
+   background-color: #00b4ff;
+}
+
+h1 {
+   font-family: 'Space Mono', sans-serif;
+   font-weight: 700;
+   display: block;
+   font-size: 20px;
+   padding: 30px;
+   border: 30px double black;
+   border-radius: 30px;
+   border-color: #ff8000;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: #ff8000;
 }
 
 body {
-   font-family: $font-stack--reading-text;
-   font-size: $height--body;
-   margin: $margin--variable;
+   font-family: 'Ibarra Real Nova', sans-serif;
+   font-size: 20px;
+   margin: 24px;
+}
+@media (max-width: 960px) {
+   body {
+      width: 720px;
+   }
+}
+@media (max-width: 720px) {
+   body {
+      width: 400px;
+   }
+}
+
+main p {
+   text-align: justify;
+   padding: 10px;
+   color: #804400;
+   width: 90%;
+   margin: auto;
+   line-height: 24px;
+   font-weight: 700;
 }
