@@ -1,41 +1,39 @@
+@import 'variables';
+@import 'nav';
+
 html {
-   background-color: #00b4ff;
+   background-color: $color--test3;
 }
 
 h1 {
-   font-family: 'Space Mono', sans-serif;
+   font-family: $font-stack--headings;
    font-weight: 700;
    display: block;
    font-size: 20px;
    padding: 30px;
-   border: 30px double black;
+   border: 30px double darken($color--test2, 50%);
    border-radius: 30px;
-   border-color: #ff8000;
+   border-color: $color--test2;
    text-align: center;
    text-decoration: underline;
-   text-decoration-color: #ff8000;
+   text-decoration-color: $color--test2;
+}
+
+img {
+   display: block;
+   margin: 35px auto;
 }
 
 body {
-   font-family: 'Ibarra Real Nova', sans-serif;
-   font-size: 20px;
-   margin: 24px;
-}
-@media (max-width: 960px) {
-   body {
-      width: 720px;
-   }
-}
-@media (max-width: 720px) {
-   body {
-      width: 400px;
-   }
+   font-family: $font-stack--reading-text2;
+   font-size: $height--body;
+   margin: $margin--variable;
 }
 
 main p {
    text-align: justify;
    padding: 10px;
-   color: #804400;
+   color: $color--test1;
    width: 90%;
    margin: auto;
    line-height: 24px;
