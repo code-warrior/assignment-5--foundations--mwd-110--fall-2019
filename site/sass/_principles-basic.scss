@@ -1,6 +1,6 @@
 .one {
   color: $color-ten;
-  background-color: $color-primary;
+  background-color: $color-one;
 }
 .one:hover {
   color: $color-primary;
@@ -85,5 +85,14 @@
 }
 .ten:hover {
   color: $color-ten;
-  background-color: $color-primary;
+  background-color: $color-one;
+}
+
+.main {
+  color: inherit;
+  background-color: inherit;
+}
+.main:hover {
+  color: inherit;
+  background-color: inherit;
 }
