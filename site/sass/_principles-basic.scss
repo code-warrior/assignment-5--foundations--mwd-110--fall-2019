@@ -2,12 +2,20 @@
   color: $color-ten;
   background-color: $color-one;
 }
+.one:visited {
+  color: $color-ten;
+  background-color: $color-one;
+}
 .one:hover {
   color: $color-primary;
   background-color: $color-ten;
 }
 
 .two {
+  color: $color-ten;
+  background-color: $color-two;
+}
+.two:visited {
   color: $color-ten;
   background-color: $color-two;
 }
@@ -20,12 +28,20 @@
   color: $color-ten;
   background-color: $color-three;
 }
+.three:visited {
+  color: $color-ten;
+  background-color: $color-three;
+}
 .three:hover {
   color: $color-primary;
   background-color: $color-eight;
 }
 
 .four {
+  color: $color-ten;
+  background-color: $color-four;
+}
+.four:visited {
   color: $color-ten;
   background-color: $color-four;
 }
@@ -38,12 +54,20 @@
   color: $color-ten;
   background-color: $color-five;
 }
+.five:visited {
+  color: $color-ten;
+  background-color: $color-five;
+}
 .five:hover {
   color: $color-primary;
   background-color: $color-six;
 }
 
 .six {
+  color: $color-primary;
+  background-color: $color-six;
+}
+.six:visited {
   color: $color-primary;
   background-color: $color-six;
 }
@@ -56,12 +80,20 @@
   color: $color-primary;
   background-color: $color-seven;
 }
+.seven:visited {
+  color: $color-primary;
+  background-color: $color-seven;
+}
 .seven:hover {
   color: $color-ten;
   background-color: $color-four;
 }
 
 .eight {
+  color: $color-primary;
+  background-color: $color-eight;
+}
+.eight:visited {
   color: $color-primary;
   background-color: $color-eight;
 }
@@ -74,6 +106,10 @@
   color: $color-primary;
   background-color: $color-nine;
 }
+.nine:visited {
+  color: $color-primary;
+  background-color: $color-nine;
+}
 .nine:hover {
   color: $color-ten;
   background-color: $color-two;
@@ -83,16 +119,11 @@
   color: $color-primary;
   background-color: $color-ten;
 }
+.ten:visited {
+  color: $color-primary;
+  background-color: $color-ten;
+}
 .ten:hover {
   color: $color-ten;
   background-color: $color-one;
-}
-
-.main {
-  color: inherit;
-  background-color: inherit;
-}
-.main:hover {
-  color: inherit;
-  background-color: inherit;
 }
