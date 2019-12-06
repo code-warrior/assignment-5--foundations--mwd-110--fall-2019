@@ -1,9 +1,9 @@
 .one {
   color: $color-ten;
-  background-color: $color-one;
+  background-color: $color-primary;
 }
 .one:hover {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-ten;
 }
 
@@ -12,7 +12,7 @@
   background-color: $color-two;
 }
 .two:hover {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-nine;
 }
 
@@ -21,7 +21,7 @@
   background-color: $color-three;
 }
 .three:hover {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-eight;
 }
 
@@ -30,7 +30,7 @@
   background-color: $color-four;
 }
 .four:hover {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-seven;
 }
 
@@ -39,12 +39,12 @@
   background-color: $color-five;
 }
 .five:hover {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-six;
 }
 
 .six {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-six;
 }
 .six:hover {
@@ -53,7 +53,7 @@
 }
 
 .seven {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-seven;
 }
 .seven:hover {
@@ -62,7 +62,7 @@
 }
 
 .eight {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-eight;
 }
 .eight:hover {
@@ -71,7 +71,7 @@
 }
 
 .nine {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-nine;
 }
 .nine:hover {
@@ -80,10 +80,10 @@
 }
 
 .ten {
-  color: $color-one;
+  color: $color-primary;
   background-color: $color-ten;
 }
 .ten:hover {
   color: $color-ten;
-  background-color: $color-one;
+  background-color: $color-primary;
 }
