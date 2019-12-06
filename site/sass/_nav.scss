@@ -1,7 +1,7 @@
 nav {
   font-family: $font-stack--reading;
   font-size: 20px;
-  
+
   ul {
     text-align: center;
     display: block;
@@ -9,15 +9,13 @@ nav {
     margin-top: 20px;
 
     li {
-      margin: 10px auto;
-      display: block;
-      width: 60%;
+      display: inline-block;
+      width: 250px;
 
       a {
         display: block;
-        padding: 10px 0px;
-        font-size: 25px;
-        letter-spacing: 4px;
+        font-size: 20px;
+        height: 40px;
       }
     }
   }
