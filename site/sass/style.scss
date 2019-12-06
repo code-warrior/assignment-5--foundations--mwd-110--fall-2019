@@ -8,11 +8,6 @@ main {
   font-size: 20px;
 }
 
-a:visited {
-  color: inherit;
-  background-color: inherit;
-}
-
 #home {
   text-align: center;
   display: block;
@@ -29,4 +24,9 @@ a:visited {
 
     }
   }
+}
+
+a:visited {
+  color: inherit;
+  background-color: inherit;
 }
