@@ -13,9 +13,20 @@ a:visited {
   background-color: inherit;
 }
 
-ul #home {
+#home {
   text-align: center;
   display: block;
   list-style: none;
 
+  li {
+    margin: auto;
+    display: block;
+    width: 60%;
+
+    a {
+      display: block;
+      padding: 10px 0px;
+
+    }
+  }
 }
