@@ -2,11 +2,11 @@
   color: $color-ten;
   background-color: $color-one;
 }
-.one:visited {
+a.one:visited {
   color: $color-ten;
   background-color: $color-one;
 }
-.one:hover {
+a.one:hover {
   color: $color-primary;
   background-color: $color-ten;
 }
@@ -15,11 +15,11 @@
   color: $color-ten;
   background-color: $color-two;
 }
-.two:visited {
+a.two:visited {
   color: $color-ten;
   background-color: $color-two;
 }
-.two:hover {
+a.two:hover {
   color: $color-primary;
   background-color: $color-nine;
 }
@@ -28,11 +28,11 @@
   color: $color-ten;
   background-color: $color-three;
 }
-.three:visited {
+a.three:visited {
   color: $color-ten;
   background-color: $color-three;
 }
-.three:hover {
+a.three:hover {
   color: $color-primary;
   background-color: $color-eight;
 }
@@ -41,11 +41,11 @@
   color: $color-ten;
   background-color: $color-four;
 }
-.four:visited {
+a.four:visited {
   color: $color-ten;
   background-color: $color-four;
 }
-.four:hover {
+a.four:hover {
   color: $color-primary;
   background-color: $color-seven;
 }
@@ -54,11 +54,11 @@
   color: $color-ten;
   background-color: $color-five;
 }
-.five:visited {
+a.five:visited {
   color: $color-ten;
   background-color: $color-five;
 }
-.five:hover {
+a.five:hover {
   color: $color-primary;
   background-color: $color-six;
 }
@@ -67,11 +67,11 @@
   color: $color-primary;
   background-color: $color-six;
 }
-.six:visited {
+a.six:visited {
   color: $color-primary;
   background-color: $color-six;
 }
-.six:hover {
+a.six:hover {
   color: $color-ten;
   background-color: $color-five;
 }
@@ -80,11 +80,11 @@
   color: $color-primary;
   background-color: $color-seven;
 }
-.seven:visited {
+a.seven:visited {
   color: $color-primary;
   background-color: $color-seven;
 }
-.seven:hover {
+a.seven:hover {
   color: $color-ten;
   background-color: $color-four;
 }
@@ -93,11 +93,11 @@
   color: $color-primary;
   background-color: $color-eight;
 }
-.eight:visited {
+a.eight:visited {
   color: $color-primary;
   background-color: $color-eight;
 }
-.eight:hover {
+a.eight:hover {
   color: $color-ten;
   background-color: $color-three;
 }
@@ -106,11 +106,11 @@
   color: $color-primary;
   background-color: $color-nine;
 }
-.nine:visited {
+a.nine:visited {
   color: $color-primary;
   background-color: $color-nine;
 }
-.nine:hover {
+a.nine:hover {
   color: $color-ten;
   background-color: $color-two;
 }
@@ -119,11 +119,11 @@
   color: $color-primary;
   background-color: $color-ten;
 }
-.ten:visited {
+a.ten:visited {
   color: $color-primary;
   background-color: $color-ten;
 }
-.ten:hover {
+a.ten:hover {
   color: $color-ten;
   background-color: $color-one;
 }
