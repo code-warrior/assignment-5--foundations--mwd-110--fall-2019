@@ -3,6 +3,13 @@
 @import 'nav';
 @import 'principles-basic';
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 html {
   min-width: 380px;
 }
@@ -40,6 +47,7 @@ main {
   height: 200px;
   margin: 20px auto 40px auto;
   padding: 30px;
+  @include border-radius(20px);
 
   p {
     font-family: $font-stack--reading;
