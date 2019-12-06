@@ -1,8 +1,21 @@
 @import 'variables';
 @import 'header';
 @import 'nav';
+@import 'principles-basic';
 
 main {
   font-family: $font-stack--reading;
   font-size: 20px;
+}
+
+a:visited {
+  color: inherit;
+  background-color: inherit;
+}
+
+ul #home {
+  text-align: center;
+  display: block;
+  list-style: none;
+
 }

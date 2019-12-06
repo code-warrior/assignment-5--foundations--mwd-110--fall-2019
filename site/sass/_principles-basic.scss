@@ -1,59 +1,89 @@
 .one {
   color: $color-ten;
   background-color: $color-one;
-
+}
+.one:hover {
+  color: $color-one;
+  background-color: $color-ten;
 }
 
 .two {
   color: $color-ten;
   background-color: $color-two;
-
+}
+.two:hover {
+  color: $color-one;
+  background-color: $color-nine;
 }
 
 .three {
   color: $color-ten;
   background-color: $color-three;
-
+}
+.three:hover {
+  color: $color-one;
+  background-color: $color-eight;
 }
 
 .four {
   color: $color-ten;
   background-color: $color-four;
-
+}
+.four:hover {
+  color: $color-one;
+  background-color: $color-seven;
 }
 
 .five {
   color: $color-ten;
   background-color: $color-five;
-
+}
+.five:hover {
+  color: $color-one;
+  background-color: $color-six;
 }
 
 .six {
   color: $color-one;
   background-color: $color-six;
-
+}
+.six:hover {
+  color: $color-ten;
+  background-color: $color-five;
 }
 
 .seven {
   color: $color-one;
   background-color: $color-seven;
-
+}
+.seven:hover {
+  color: $color-ten;
+  background-color: $color-four;
 }
 
 .eight {
   color: $color-one;
   background-color: $color-eight;
-
+}
+.eight:hover {
+  color: $color-ten;
+  background-color: $color-three;
 }
 
 .nine {
   color: $color-one;
   background-color: $color-nine;
-
+}
+.nine:hover {
+  color: $color-ten;
+  background-color: $color-two;
 }
 
 .ten {
   color: $color-one;
   background-color: $color-ten;
-
+}
+.ten:hover {
+  color: $color-ten;
+  background-color: $color-one;
 }
