@@ -1,10 +1,17 @@
-nav ul li {
-   list-style-type: circle;
+li {
+   font-family: $font-stack--reading-text;
+   border: 10px double $color--lightgrey;
+   line-height: 10px;
    display: inline-block;
-   background-color: $color--test3;
    text-align: center;
-   width: 200px;
-   padding: 9px;
-   font-family: 'Big Shoulders Text', cursive;
+   width: 400px;
+   padding: 10px;
    font-size: 20px;
+}
+
+li:hover {
+   font-family: $font-stack--reading-text2;
+   background-color: $color--grey;
+   text-decoration: none;
+   color: red;
 }
