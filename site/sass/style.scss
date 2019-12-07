@@ -1,22 +1,9 @@
 @import 'variables';
 @import 'nav';
+@import 'header';
 
 html {
-   background-color: $color--test3;
-}
-
-h1 {
-   font-family: $font-stack--headings;
-   font-weight: 700;
-   display: block;
-   font-size: 20px;
-   padding: 30px;
-   border: 30px double darken($color--test2, 50%);
-   border-radius: 30px;
-   border-color: $color--test2;
-   text-align: center;
-   text-decoration: underline;
-   text-decoration-color: $color--test2;
+   background-color: white;
 }
 
 img {
@@ -33,7 +20,7 @@ body {
 main p {
    text-align: justify;
    padding: 10px;
-   color: $color--test1;
+   color: $color--darkteal;
    width: 90%;
    margin: auto;
    line-height: 24px;
