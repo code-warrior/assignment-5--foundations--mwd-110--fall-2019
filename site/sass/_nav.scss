@@ -1,5 +1,5 @@
 li {
-   font-family: $font-stack--reading-text;
+   font-family: $font-stack--reading-text2;
    border: 10px double $color--lightgrey;
    line-height: 10px;
    display: inline-block;
@@ -11,7 +11,31 @@ li {
 
 li:hover {
    font-family: $font-stack--reading-text2;
-   background-color: $color--grey;
+   font-size: 18px;
    text-decoration: none;
    color: red;
+}
+
+#homepage a:hover {
+   color: $color--darkteal;
+}
+
+#page1-2 a:hover {
+   color: $color-onetotwo;
+}
+
+#page3-4 a:hover {
+   color: $color-rulethreetofour;
+}
+
+#page5-6 a:hover {
+   color: $color-rulefivetosix;
+}
+
+#page7-8 a:hover {
+   color: $color-ruleseventoeight;
+}
+
+#page9-10 a:hover {
+   color: $color-ruleninetoten;
 }
