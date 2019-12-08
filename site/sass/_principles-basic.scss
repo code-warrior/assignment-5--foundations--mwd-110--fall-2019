@@ -1,0 +1,129 @@
+.one {
+  color: $color-ten;
+  background-color: $color-one;
+}
+a.one:visited {
+  color: $color-ten;
+  background-color: $color-one;
+}
+a.one:hover {
+  color: $color-primary;
+  background-color: $color-ten;
+}
+
+.two {
+  color: $color-ten;
+  background-color: $color-two;
+}
+a.two:visited {
+  color: $color-ten;
+  background-color: $color-two;
+}
+a.two:hover {
+  color: $color-primary;
+  background-color: $color-nine;
+}
+
+.three {
+  color: $color-ten;
+  background-color: $color-three;
+}
+a.three:visited {
+  color: $color-ten;
+  background-color: $color-three;
+}
+a.three:hover {
+  color: $color-primary;
+  background-color: $color-eight;
+}
+
+.four {
+  color: $color-ten;
+  background-color: $color-four;
+}
+a.four:visited {
+  color: $color-ten;
+  background-color: $color-four;
+}
+a.four:hover {
+  color: $color-primary;
+  background-color: $color-seven;
+}
+
+.five {
+  color: $color-ten;
+  background-color: $color-five;
+}
+a.five:visited {
+  color: $color-ten;
+  background-color: $color-five;
+}
+a.five:hover {
+  color: $color-primary;
+  background-color: $color-six;
+}
+
+.six {
+  color: $color-primary;
+  background-color: $color-six;
+}
+a.six:visited {
+  color: $color-primary;
+  background-color: $color-six;
+}
+a.six:hover {
+  color: $color-ten;
+  background-color: $color-five;
+}
+
+.seven {
+  color: $color-primary;
+  background-color: $color-seven;
+}
+a.seven:visited {
+  color: $color-primary;
+  background-color: $color-seven;
+}
+a.seven:hover {
+  color: $color-ten;
+  background-color: $color-four;
+}
+
+.eight {
+  color: $color-primary;
+  background-color: $color-eight;
+}
+a.eight:visited {
+  color: $color-primary;
+  background-color: $color-eight;
+}
+a.eight:hover {
+  color: $color-ten;
+  background-color: $color-three;
+}
+
+.nine {
+  color: $color-primary;
+  background-color: $color-nine;
+}
+a.nine:visited {
+  color: $color-primary;
+  background-color: $color-nine;
+}
+a.nine:hover {
+  color: $color-ten;
+  background-color: $color-two;
+}
+
+.ten {
+  color: $color-primary;
+  background-color: $color-ten;
+}
+a.ten:visited {
+  color: $color-primary;
+  background-color: $color-ten;
+}
+a.ten:hover {
+  color: $color-ten;
+  background-color: $color-one;
+}
