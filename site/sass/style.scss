@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'nav';
 @import 'header';
+@import 'id';
 
 html {
    background-color: white;
@@ -20,111 +21,6 @@ body {
 main p {
    text-align: justify;
    padding: 10px;
-   color: $color--darkteal;
-   width: 90%;
-   margin: auto;
-   line-height: 24px;
-   font-weight: 700;
-}
-
-#homepage {
-   background-color: none;
-}
-
-#page1-2 {
-   background-color: white;
-}
-
-#page1-2 h1 {
-   border: 20px double darken($color-onetotwo, 30%);
-   border-radius: 30px;
-   border-color: $color-onetotwo;
-}
-
-#page1-2 main p {
-   text-align: justify;
-   padding: 10px;
-   color: $color-onetotwo;
-   width: 90%;
-   margin: auto;
-   line-height: 24px;
-   font-weight: 700;
-}
-
-#page3-4 {
-   background-color: white;
-}
-
-#page3-4 h1 {
-   border: 20px double darken($color-rulethreetofour, 30%);
-   border-radius: 30px;
-   border-color: $color-rulethreetofour;
-}
-
-#page3-4 main p {
-   text-align: justify;
-   padding: 10px;
-   color: $color-rulethreetofour;
-   width: 90%;
-   margin: auto;
-   line-height: 24px;
-   font-weight: 700;
-}
-
-#page5-6 {
-   background-color: white;
-}
-
-#page5-6 h1 {
-   border: 20px double darken($color-rulefivetosix, 30%);
-   border-radius: 30px;
-   border-color: $color-rulefivetosix;
-}
-
-#page5-6 main p {
-   text-align: justify;
-   padding: 10px;
-   color: $color-rulefivetosix;
-   width: 90%;
-   margin: auto;
-   line-height: 24px;
-   font-weight: 700;
-}
-
-#page7-8 {
-   background-color: white;
-}
-
-#page7-8 h1 {
-   border: 20px double darken($color-ruleseventoeight, 30%);
-   border-radius: 30px;
-   border-color: $color-ruleseventoeight;
-}
-
-#page7-8 main p {
-   text-align: justify;
-   padding: 10px;
-   color: $color-ruleseventoeight;
-   width: 90%;
-   margin: auto;
-   line-height: 24px;
-   font-weight: 700;
-}
-
-#page9-10 {
-   background-color: white;
-}
-
-#page9-10 h1 {
-   border: 20px double darken($color-ruleninetoten, 30%);
-   border-radius: 30px;
-   border-color: $color-ruleninetoten;
-}
-
-#page9-10 main p {
-   text-align: justify;
-   padding: 10px;
-   color: $color-ruleninetoten;
    width: 90%;
    margin: auto;
    line-height: 24px;

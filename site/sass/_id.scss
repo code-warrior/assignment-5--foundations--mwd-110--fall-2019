@@ -1,0 +1,89 @@
+#homepage {
+   background-color: none;
+}
+
+#homepage h1 {
+   border: 20px double darken($color--darkteal, 30%);
+   border-radius: 30px;
+   border-color: $color--darkteal;
+   text-decoration-color: $color--darkteal;
+}
+
+#homepage main p {
+   color: $color--darkteal;
+}
+
+#page1-2 {
+   background-color: white;
+}
+
+#page1-2 h1 {
+   border: 20px double darken($color-onetotwo, 30%);
+   border-radius: 30px;
+   border-color: $color-onetotwo;
+   text-decoration-color: $color-onetotwo;
+}
+
+#page1-2 main p {
+   color: $color-onetotwo;
+}
+
+#page3-4 {
+   background-color: white;
+}
+
+#page3-4 h1 {
+   border: 20px double darken($color-rulethreetofour, 30%);
+   border-radius: 30px;
+   border-color: $color-rulethreetofour;
+   text-decoration-color: $color-rulethreetofour;
+}
+
+#page3-4 main p {
+   color: $color-rulethreetofour;
+}
+
+#page5-6 {
+   background-color: white;
+}
+
+#page5-6 h1 {
+   border: 20px double darken($color-rulefivetosix, 30%);
+   border-radius: 30px;
+   border-color: $color-rulefivetosix;
+   text-decoration-color: $color-rulefivetosix;
+}
+
+#page5-6 main p {
+   color: $color-rulefivetosix;
+}
+
+#page7-8 {
+   background-color: white;
+}
+
+#page7-8 h1 {
+   border: 20px double darken($color-ruleseventoeight, 30%);
+   border-radius: 30px;
+   border-color: $color-ruleseventoeight;
+   text-decoration-color: $color-ruleseventoeight;
+}
+
+#page7-8 main p {
+   color: $color-ruleseventoeight;
+}
+
+#page9-10 {
+   background-color: white;
+}
+
+#page9-10 h1 {
+   border: 20px double darken($color-ruleninetoten, 30%);
+   border-radius: 30px;
+   border-color: $color-ruleninetoten;
+   text-decoration-color: $color-ruleninetoten;
+}
+
+#page9-10 main p {
+   color: $color-ruleninetoten;
+}
