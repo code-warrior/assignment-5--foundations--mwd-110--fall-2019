@@ -1,0 +1,18 @@
+h1 {
+   font-family: $font-stack--reading-text2;
+   font-weight: 700;
+   display: block;
+   font-size: 20px;
+   padding: 20px;
+   border: 20px double darken($color--grey, 30%);
+   border-radius: 30px;
+   border-color: $color--grey;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: $color--grey;
+}
+
+h2 {
+   text-align: center;
+   color: $color--grey;
+}

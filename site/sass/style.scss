@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'nav';
+@import 'header';
+@import 'id';
+
+html {
+   background-color: white;
+}
+
+img {
+   display: block;
+   margin: 35px auto;
+}
+
+body {
+   font-family: $font-stack--reading-text2;
+   font-size: $height--body;
+   margin: $margin--variable;
+}
+
+main p {
+   text-align: justify;
+   padding: 10px;
+   width: 90%;
+   margin: auto;
+   line-height: 24px;
+   font-weight: 700;
+}
