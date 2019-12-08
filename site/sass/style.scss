@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'nav';
+
+html {
+   background-color: black;
+}
+
+h1 {
+   font-family: $font-stack--heading;
+   color: $font-color;
+   font-size: $font-size--headers;
+   text-align: $text-align;
+   padding: 20px 0;
+}
+
+img {
+   display: block;
+   border: 0;
+   margin: 35px auto;
+}
+
+p {
+   font-family: $font-stack--main;
+   font-size: $font-size--main;
+   color: $font-color;
+   width: 95%;
+   margin: auto;
+   line-height: 25px;
+}
