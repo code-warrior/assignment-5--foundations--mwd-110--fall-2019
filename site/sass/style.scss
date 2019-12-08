@@ -1,0 +1,44 @@
+@import 'variables';
+@import 'nav';
+@import 'header';
+
+html {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home {
+  text-decoration: none;
+}
+
+.textbox {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation-name: FadeIn;
+  animation-duration: 3s;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+  }
+
+p {
+  font-family: $font-stack--subtext;
+  font-size: 32px;
+}

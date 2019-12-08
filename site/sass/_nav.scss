@@ -1,0 +1,106 @@
+//Seperate NAV links in-case changes are needed (obviously could have used whole container)
+#nav {
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth,
+.nineth,
+.tenth {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+  font-family: $font-stack--subtext;
+  font-size: 40px;
+}
+
+a:hover {
+  color: $color-primary;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+    }
+
+  ul {
+    text-align: center;
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  li {
+    display: inline-block;
+    width: 100%;
+    margin: 2px 0;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-secondary;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+}
+
+#navbar {
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth,
+  .seventh,
+  .eighth,
+  .nineth,
+  .tenth {
+    font-family: $font-stack--subtext;
+    font-size: 35px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+  }
+
+    ul {
+      text-align: center;
+      display: block;
+      list-style: none;
+      margin-top: 20px;
+    }
+
+    li {
+      width: 260px;
+      margin: 2px 0;
+      text-align: left;
+        a:hover {
+            color: $color-primary;
+            }
+    }
+
+    a {
+      text-decoration: none;
+      color: $color-secondary;
+      display: block;
+      font-size: 20px;
+      padding: 10px 0;
+      }
+
+
+}
