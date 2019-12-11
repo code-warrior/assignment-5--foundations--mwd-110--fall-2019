@@ -1,0 +1,16 @@
+nav ul li {
+   text-align: center;
+   font-family: $font-stack--heading;
+   font-size: 1.5rem;
+   padding: 20px;
+   line-height: 20px;
+}
+
+a {
+   text-decoration: none;
+   color: $color--text;
+}
+
+a:hover {
+   background-color: $color--highlight;
+}

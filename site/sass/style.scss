@@ -1,0 +1,41 @@
+@import 'reset';
+@import 'variables';
+@import 'headings';
+@import 'nav';
+
+html {
+   background-color: black;
+}
+
+body {
+   margin: auto;
+   background-color: $color--backgrnd2;
+   color: $color--text;
+   width: $width--desktop;
+}
+
+@media (max-width: $width--desktop) {
+   width: $width--tablet;
+}
+
+@media (max-width: $width--tablet) {
+   width: $width--mobile;
+}
+
+div {
+   color: $color--text;
+   background-color: $color--backgrnd2;
+   font-family: $font-stack--text;
+   font-size: 1.4rem;
+   padding: 30px;
+   line-height: 30px;
+}
+
+img {
+   display: block;
+   margin-left: 90px;
+   margin-top: 10px;
+   height: 50vh;
+   width: 50vw;
+   border: 5px solid black;
+}
